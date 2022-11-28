@@ -22,6 +22,10 @@ This program takes the current speed of a car and if the speed is alligned with 
 
 
 
+# Net salary calculator 
+
+# Description 
+This program is meant to be able to calculate the net salary of an indiviual by getting the inputs of basic salary and benefits. 
 
 
 
@@ -49,11 +53,18 @@ This program takes the current speed of a car and if the speed is alligned with 
 
 
 
+
+
+
+
+# Authors
+This project was contributed to by:
+- [Jamil Saleh](https://github.com/jsalehmoringa/)
 
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2022] [JamilSaleh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

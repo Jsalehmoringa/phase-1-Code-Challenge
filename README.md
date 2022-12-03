@@ -32,31 +32,6 @@ This program is meant to be able to calculate the net salary of an indiviual by 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Authors
 This project was contributed to by:
 - [Jamil Saleh](https://github.com/jsalehmoringa/)

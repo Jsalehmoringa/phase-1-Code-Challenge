@@ -1,33 +1,20 @@
-const speed = 70
-function speed(){
+let speed;
+function moveSpeed(speed){
+if(speed < 70){
+    return 'OK'
 
-    if(speed <=70){
-    return "Ok"
-    }else if (speed = 75) {
-        return "1 point"  
-    } else if(speed = 80){
-        return "2 points"
-    } else if (speed = 85){
-        return "3 points"
-    } else if ( speed = 90){
-        return "4 points"
-    } else if( speed = 95){
-        return "5 points"
-    } else if (speed = 100){
-        return "6 points "
-    } else if ( speed = 105){
-        return "7 points"
-    } else if ( speed = 110){
-        return "8 points "
-    } else if ( speed = 115){
-        return "9 points"
-    } else if (speed = 120 ){
-        return "10 points"
-    } else if (speed = 125){
-        return "11 points"
-    } else if (speed = 130){
-        return "Licence suspended"
+}else if(speed > 70){
+   let points = ((speed - 70) / 5)
+    if(points >= 12){
+        return 'License suspended'
+
+    }else{
+        return 'Points:' + points
     }
-        
-    }
+ 
+}
+}
+
+console.log(moveSpeed(10));
+
 
